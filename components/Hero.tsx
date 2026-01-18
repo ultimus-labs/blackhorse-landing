@@ -35,11 +35,11 @@ const Hero: React.FC = () => {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <span className="inline-block text-[10px] md:text-xs font-bold uppercase tracking-[0.4em] text-champagne mb-6 border border-champagne/30 px-4 py-2 rounded-full backdrop-blur-md bg-black/20">
-                        Chauffeur Services
+                        Executive Chauffeur Services
                     </span>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-medium text-white leading-[1.05] tracking-tight mb-8">
-                        Executive Rides,<br />
-                        <span className="text-white/40 italic font-serif">Perfected.</span>
+                        Executive Rides<br />
+                        <span className="text-white/40 italic font-serif">When You Need Them.</span>
                     </h1>
                 </motion.div>
 
@@ -49,8 +49,8 @@ const Hero: React.FC = () => {
                     transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                     className="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed max-w-lg font-light"
                 >
-                    Uncompromising mobility for the modern leader.
-                    <br className="hidden md:block" /> Precision, privacy, and peace of mind.
+                    Flexible. Comfortable. Professional.
+                    <br className="hidden md:block" /> Precision mobility for the modern leader.
                 </motion.p>
 
                 <motion.div

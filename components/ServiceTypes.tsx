@@ -35,7 +35,7 @@ const ServiceTypes: React.FC = () => {
                             <p className="text-gray-400 text-sm mb-8">Mercedes-Benz E-Class, BMW 5 Series, or similar</p>
 
                             <ul className="space-y-4 mb-10">
-                                {['Max 3 Passengers', '2 Large Suitcases', 'On-board Wi-Fi', 'Bottled Water'].map((item, i) => (
+                                {['Max 3 Passengers', 'Hourly Booking (3hr Min)', 'On-board Wi-Fi', 'Bottled Water'].map((item, i) => (
                                     <li key={i} className="flex items-center gap-3 text-sm text-gray-300">
                                         <span className="w-1 h-1 bg-champagne rounded-full"></span>
                                         {item}
@@ -73,7 +73,7 @@ const ServiceTypes: React.FC = () => {
                             <p className="text-gray-400 text-sm mb-8">Cadillac Escalade, Lincoln Navigator, or similar</p>
 
                             <ul className="space-y-4 mb-10">
-                                {['Max 6 Passengers', '4 Large Suitcases', 'On-board Wi-Fi', 'Privacy Tint'].map((item, i) => (
+                                {['Max 6 Passengers', 'Hourly Booking (3hr Min)', 'On-board Wi-Fi', 'Privacy Tint'].map((item, i) => (
                                     <li key={i} className="flex items-center gap-3 text-sm text-gray-300">
                                         <span className="w-1 h-1 bg-champagne rounded-full"></span>
                                         {item}

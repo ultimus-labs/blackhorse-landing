@@ -25,8 +25,8 @@ const solutions: SolutionProps[] = [
         delay: 0.3
     },
     {
-        title: "Smart Routing",
-        description: "Predictive logistics for mission-critical itineraries.",
+        title: "Events & Roadshows",
+        description: "Efficient mobility for consultants and organizers.",
         icon: Map,
         delay: 0.4
     }
