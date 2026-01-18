@@ -1,20 +1,75 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Blackhorse Mobility
 
-# Run and deploy your AI Studio app
+**Executive Rides, Perfected.**
+Uncompromising mobility for the modern leader. Precision, privacy, and peace of mind.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1WmVEL-AR_xmedBOJWlBDRqLyao7teffE
+Blackhorse Mobility is a next-generation luxury chauffeur platform designed for high-profile individuals and corporate clients. This application serves as the premium landing page and digital entryway for the service, offering a seamless and sophisticated user experience.
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- **Premium Aesthetic**: A curated "Obsidian" and "Champagne" color palette for a high-end feel.
+- **Modern Tech Stack**: Built with Next.js 14+ (App Router) and React Server Components.
+- **Fluid Animations**: Smooth, cinema-grade interactions powered by Framer Motion.
+- **Responsive Design**: Fully optimized for all devices, from mobile to ultra-wide desktops.
+- **Integration**: Direct integration with Typeform for seamless booking and inquiries.
 
+## 🛠️ Technology Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Typography**: `Inter` and `Playfair Display` (via `next/font`)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/blackhorse-landing.git
+    cd blackhorse-landing
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+### Running Locally
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📜 Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm start`: Runs the built application in production mode.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+
+## 📂 Project Structure
+
+- `app/`: Contains the App Router storage, layouts, and page definitions.
+- `components/`: Reusable UI components (Hero, Navbar, etc.).
+- `public/`: Static assets.
+
+## 📄 License
+
+© 2026 Blackhorse Mobility. All rights reserved.
