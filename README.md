@@ -9,7 +9,7 @@ Blackhorse Mobility is a next-generation luxury chauffeur platform designed for 
 
 ## ✨ Features
 
-- **Premium Aesthetic**: A curated "Obsidian" and "Champagne" color palette for a high-end feel.
+- **Premium Aesthetic**: A curated "Obsidian" and "cyan-300" color palette for a high-end feel.
 - **Modern Tech Stack**: Built with Next.js 14+ (App Router) and React Server Components.
 - **Fluid Animations**: Smooth, cinema-grade interactions powered by Framer Motion.
 - **Responsive Design**: Fully optimized for all devices, from mobile to ultra-wide desktops.

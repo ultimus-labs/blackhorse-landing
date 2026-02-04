@@ -8,49 +8,46 @@ import { FeatureCardProps } from "../types";
 
 const features: FeatureCardProps[] = [
   {
-    title: "Corporate-Grade Vehicles & Drivers",
-    description:
-      "Professional vehicles and vetted drivers suitable for corporate use.",
+    title: "Become a partner",
+    description: "Connect your vehicles to corporate demand.",
     image:
       "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1470&auto=format&fit=crop",
     delay: 0.1,
   },
   {
-    title: "Safety Standards",
-    description:
-      "Verified vehicles operating under clear quality and safety requirements",
+    title: "See How It Works",
+    description: "Learn how to manage bookings and revenue",
     image:
       "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1470&auto=format&fit=crop",
     delay: 0.2,
   },
   {
-    title: "Pricing & Billing",
-    description: "Transparent pricing with consolidated billing invoices ",
+    title: "Manage Vehicles",
+    description: "Track vehicles, trips, and driver performance",
     image:
       "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=1530&auto=format&fit=crop",
     delay: 0.3,
   },
   {
-    title: "Managed Matching",
-    description:
-      "Corporate mobility needs matched to available vehicle capacity",
+    title: "Track Revenue",
+    description: "View earnings, payouts, and reporting",
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1470&auto=format&fit=crop",
     delay: 0.4,
   },
 ];
 
-const Ecosystem: React.FC = () => {
+const TransportPartners: React.FC = () => {
   return (
-    <section id="how-it-works" className="py-32 bg-obsidian relative">
+    <section id="transport-partners" className="py-32 bg-obsidian relative">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div className="max-w-xl">
             <span className="text-cyan-300 text-[10px] font-bold uppercase tracking-[0.3em] mb-4  block">
-              The Ecosystem
+              Fleet Owners
             </span>
             <h2 className="text-3xl md:text-5xl font-display font-medium text-white nano">
-              How It Works
+              Turn Your Vehicles Into A Steady, Reliable Income Stream
             </h2>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -67,16 +64,13 @@ const Ecosystem: React.FC = () => {
                 }
                 className="min-w-[180px] px-8 py-4 text-xs rounded-sm font-bold uppercase tracking-widest text-center bg-transparent text-cyan-300 border border-cyan-300 hover:bg-cyan-300 hover:text-black transition-all duration-300"
               >
-                Get Started
+                Become A Fleet Partner
               </button>
             </motion.div>
           </div>
           <p className="text-gray-400 text-sm max-w-sm leading-relaxed border-l border-white/10 pl-6">
-            Fleet owners are on boarded as partners and gain access to a
-            powerful, real-time dashboard that enables full visibility and
-            control of their operations.
-            <br /> For Corporate clients, this means better control over travel
-            costs, reporting, and compliance.
+            Listing Your fleet on our platform grants you access to thousands of
+            clients, driving consistent revenue streams for your fleet.
           </p>
         </div>
 
@@ -122,4 +116,4 @@ const Ecosystem: React.FC = () => {
   );
 };
 
-export default Ecosystem;
+export default TransportPartners;
